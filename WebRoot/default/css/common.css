@@ -1,0 +1,237 @@
+html,body{
+	background-color:#f9f9f9 !important;
+	font: normal 14px / 20px "Microsoft Yahei", sans-serif;
+    font-family: "Microsoft Yahei" !important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"microsoft yahei", sans-serif !important;
+}
+input{
+    font-family: "Microsoft Yahei";
+}
+*{
+	margin:0;
+	padding:0;
+}
+a,a:hover{
+	text-decoration: none !important;
+}
+ul,li{
+	list-style: none;
+}
+i{
+    font-style: normal !important;
+}
+.top_content,.nav_content,.footer_content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content{
+	max-width:1200px;
+	margin:0 auto;
+    padding-bottom: 40px;
+}
+.common_top {
+    padding: 10px 0;
+    border-bottom: 1px solid #d4d4d4;
+    background: #f9f9f9;
+}
+.top_content .login{
+    color: #006ec5;
+}
+.top_content .register{
+    color: #000;
+}
+.top_content .login:hover{
+    color: #7fc7ef;
+}
+.header_common_nav {
+    padding: 10px 0;
+    border-bottom: 1px solid #d4d4d4;
+    background: #fff;
+}
+.nav_content .uk-active{
+    color: #006ec5;
+    border-bottom: 3px solid #006ec5;
+}
+.nav_content li.uk-active a{
+    color: #006ec5;
+}
+.nav_content .uk-navbar-nav > li > a{
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+.nav_content .uk-navbar-nav > li:hover > a{
+    color: #006ec5;
+    background: none;
+}
+.nav_content .uk-navbar-nav>li{
+    margin: 0 15px;
+}
+.nav_content .uk-search{
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+}
+.nav_content .margin_search {
+    margin-top: 12px;
+}
+.margin_nav.uk-navbar-nav {
+    padding:8px 0;
+}
+.common_footer {
+/*    margin-top: 40px;*/
+/*    height: 388px;*/
+    background: url("../../images/footerbg.jpg") center center no-repeat;
+    padding: 24px 0 0 0;
+}
+.footer_content h2{
+    color: #fff;
+}
+.footer_content .margin-footer {
+    margin-top: 55px;
+}
+.footer_content .uk-grid>*{
+    padding: 0;
+}
+@media (min-width: 1220px){
+    .footer_content .uk-grid>*{
+         padding: 0;
+    }
+}
+.footer_content .footerbox{
+    text-align: center;
+    margin-bottom: 22px;
+}
+.footer_content .footerbox li{
+    border-right: 1px solid #9e9e9e;
+    color: #fff;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer_content .footerbox li P{
+     word-wrap: break-word;
+     margin:15px 0;
+}
+.footer_content .footerbox li:last-child{
+    border-right: none;
+}
+.footer_content .phone-400 {
+    color: #006ec5;
+    margin:10px 0;
+}
+.footerbox .uk-width-large-1-4:first-child p{
+	text-align:left;
+	text-indent:2em;
+}
+.uk-subnav.footer_2vSwitcher{
+	margin-top:0;
+	margin-left:0;
+}
+.footer_content .footerbox .footer_2vSwitcher li{
+	border-right: 0;
+	padding: 0;
+	margin-top:0;
+	margin-bottom:10px;
+}
+.footer_content .footerbox .uk-switcher li{
+	border-right:0;
+}
+.footer_content .uk-tab-center{
+	border-bottom: 0;
+}
+.footer_2vSwitcher.uk-tab > li.uk-active > a{
+	background:#006ec5;
+	border-color:#006ec5;
+	color:#fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.footer_2vSwitcher.uk-tab > li > a{
+	padding: 8px 4px;
+	background:#fff;
+	border-color:#fff;
+	color:#006ec5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.footer_2vSwitcher.uk-tab > li:not(.uk-active) > a:hover{
+	margin-bottom:0;
+	padding-bottom: 8px;
+	color:#006ec5;
+	background: #fff;
+}
+.beian {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #9e9e9e;
+    color: #fff;
+    margin: 0;
+}
+.nav_content nav.uk-navbar{
+    background: #fff;
+    font-family: "Microsoft Yahei";
+}
+.nav_content .uk-navbar-nav > li.uk-active > a{
+    background: none;
+    color:#006ec5;
+}
+.common_division{
+	width:4px;
+	height:8px;
+	background: #006ec5;
+	float:left;
+	margin-right:10px;
+	margin-top: 1px;
+}
+.common_division + *{
+	float:right;
+	display:inline-block;
+}
+.exit{
+	color:#000;
+	margin-left:10px;
+}
+.exit:hover{
+	color:#006ec5;
+}
+.layui-layer-btn .layui-layer-btn0{
+	background: #006ec5 !important;
+	border-color: #006ec5 !important;
+}
+.layui-layer-btn .layui-layer-btn1:hover{
+	color:inherit !important;
+}
+@media (max-width: 765px){
+    .shiftNav{
+        width: 100% !important;
+    }
+    .footerbox h2{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .footerbox p,.phone-400{
+        font-size: 14px !important;
+        display: block;
+        width: 100%;
+        line-height: normal;
+        margin: 0;
+    }
+    .footer_content .footerbox li{
+        padding-right: 0;
+    }
+    .common_footer{
+        padding-top:0;
+    }
+	.beian{
+		border-top:0;
+	}
+}
+.uk-nav-parent-icon > .uk-parent > a:after{
+    content: '' !important;
+}
+.uk-offcanvas-bar{
+    width: 180px !important;
+}

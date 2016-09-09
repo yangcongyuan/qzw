@@ -1,0 +1,68 @@
+.content{
+	padding:0;
+}
+.szmx{
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:15px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.szmx_wz{
+	font-size:20px;
+}
+.szmx_px a{
+	color:#000;
+	margin:0 10px;
+}
+.szmx_px a:hover{
+	color:#ed510a;
+}
+.szmx_px i{
+	vertical-align: middle;
+	margin:0 10px;
+}
+.szmx_all p a{
+	color:#ed510a;
+	margin:0;
+	margin-right:20px;
+}
+.szmx_table{
+	margin-top:15px;
+}
+.szmx_table thead tr th{
+	text-align:center;
+}
+.szmx_table thead,.szmx_table .uk-table-striped tbody tr:nth-of-type(even){
+	background: #e0e0e0;
+}
+.szmx_table .uk-table-striped tbody tr:nth-of-type(odd){
+	background: #f9f9f9;
+}
+.jszmx_table_fy{
+	padding:30px 0 15px 0;
+}
+.jszmx_table_fy .uk-pagination > .uk-active > span{
+	background: #ed510a;
+}
+.jszmx_table_fy .uk-pagination > li > a{
+	background: #e0e0e0;
+	color:#fff;
+}
+.jszmx_table_fy .uk-pagination > li > a:hover{
+	background:#ed510a;
+}
+.tzcz{
+	margin:0 10px;
+	padding:3px 0;
+}
+.tzcz input{
+	width:20px;
+	margin:0 10px;
+	vertical-align: middle;
+}
+.szmx_all i.common_division{
+	margin-top:5px;
+}

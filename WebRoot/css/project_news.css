@@ -1,0 +1,46 @@
+.cd-timeline-content img{
+    max-width: 100%;
+}
+.tittle_projectNews{
+    background: #f3e0d8;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    font-size: 20px;
+}
+.cd-timeline-content .uk-width-1-2:last-child{
+    padding-left: 15px;
+}
+.cd-timeline-content p.introduce_projectNews{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+/*    text-align: justify;*/
+    text-indent: 2em;
+    margin-top: 25px;
+    max-height: 65px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    line-height: normal;
+}
+.bg_project_news{
+    border: 3px solid #dadada;
+    border-radius: 10px;
+}
+.title_projectNews{
+    padding-left: 28px;
+    margin-top: 30px;
+}
+.title_projectNews h1{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+}
+.title_projectNews div{
+    width: 80px;
+    height: 4px;
+    background: url("../images/icon1px_private_letter.png") center center repeat-x;
+    margin-top: 7px;
+}

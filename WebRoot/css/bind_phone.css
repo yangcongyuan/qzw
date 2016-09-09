@@ -1,0 +1,483 @@
+input{
+    outline: none;
+    border:1px solid #dadada;
+}
+i{
+    font-style: normal;
+}
+.uk-grid.bindPhone{
+    margin-left: 0;
+}
+.bindPhone .uk-width-2-10{
+    width: 25%;
+}
+.bindPhone .uk-width-8-10{
+    width: 75%;
+}
+.safeCenter_bindPhone{
+    padding-top: 23px;
+    padding-left: 46px;
+}
+.safeCenter_bindPhone li{
+    color: #373737;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.safeCenter_bindPhone li a:hover{
+    color: #006ec5;
+}
+.safeCenter_bindPhone li:first-child{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.safeCenter_bindPhone li a{
+    color: #373737;
+}
+li.safeCenterSidebarActive_bindPhone a{
+    color: #006ec5;
+}
+.step_bindPhone .uk-grid > *{
+    padding-left: 0;
+}
+.step_bindPhone{
+    border-radius: 10px;
+    background: #fff;
+    padding: 28px 40px 36px 40px;
+}
+.tittle_bindPhone{
+    color: #373737;
+    font-weight: bold;
+}
+.tittle_bindPhone i{
+    width: 4px;
+    height: 8px;
+    background: #006ec5;
+    margin-right: 10px;
+    display: inline-block;
+}
+.stepPlanBox_bindPhone{
+    border: 2px solid #59ace2;
+    width: 596px;
+    height: 16px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58px;
+    position: relative;
+/*    overflow: hidden;*/
+}
+.stepPlanBox_bindPhone span:first-child{
+    width: 200px;
+    height: 20px;
+    background: #006ec5;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    z-index: 2;
+}
+#phoneBind .stepPlanBox_bindPhone span:first-child{
+    width: 50%;
+    height: 20px;
+    background: #006ec5;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    z-index: 2;
+}
+.stepPlanBox_bindPhone span:last-child{
+    width: 200px;
+    height: 16px;
+    display: none;
+    background: #a5d8f4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#phoneBind .stepPlanBox_bindPhone span:last-child{
+    width: 50%;
+    height: 16px;
+    display: none;
+    background: #a5d8f4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.stepPlan_bindPhone,.stepPlan_bindPhone2{
+    overflow: hidden;
+    margin-left: auto;margin-right: auto;
+    width: 600px;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.stepPlan_bindPhone li,.stepPlan_bindPhone2 li{
+    float: left;
+    width: 200px;
+}
+#phoneBind .stepPlan_bindPhone li,.stepPlan_bindPhone2 li{
+    float: left;
+    width: 300px;
+}
+.stepPlan_bindPhone li p,.stepPlan_bindPhone2 li p{
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #aeaeae;
+    font-weight: bold;
+}
+.active_bindPhone span:before{
+    background: #006ec5;
+}
+.active_bindPhone span:after{
+    border-top-color:#006ec5;
+}
+li.active_bindPhone p{
+    color: #006ec5;
+}
+.ed span:before{
+    background: #a5d8f4;
+}
+.ed span:after{
+    border-top-color: #a5d8f4;
+}
+li.ed p{
+    color: #a5d8f4;
+}
+.waterDrop_bindPhone{
+    width: 26px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.waterDrop_bindPhone:before{
+    content:'1';
+    height:26px;
+    width:26px;
+    display:block;
+    position:absolute;
+    bottom:2px;
+    left:0px;
+    z-index:1;
+    line-height:26px;
+    background:#aeaeae;
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    color:#fff;
+    text-align:center;
+}
+.waterDrop_bindPhone:after{
+    content:'';
+    height:0px;
+    width:0px;
+    display:block;
+    position:absolute;
+    top:4px;
+    left:1px;
+    border:10px transparent solid;
+    border-top-color:#aeaeae;
+    border-width:15px 10px 0px 10px;
+    transform:rotate(60deg);
+    -ms-transform:rotate(60deg); 	/* IE 9 */
+    -moz-transform:rotate(60deg);	/* Firefox */
+    -webkit-transform:rotate(60deg); /* Safari 和 Chrome */
+    -o-transform:rotate(60deg);
+}
+.waterDrop_bindPhone2{
+    width: 26px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.waterDrop_bindPhone2:before{
+    content:'2';
+    height:26px;
+    width:26px;
+    display:block;
+    position:absolute;
+    bottom:2px;
+    left:0px;
+    z-index:1;
+    line-height:26px;
+    background:#aeaeae;
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    color:#fff;
+    text-align:center;
+}
+.waterDrop_bindPhone2:after{
+    content:'';
+    height:0px;
+    width:0px;
+    display:block;
+    position:absolute;
+    top:4px;
+    left:1px;
+    border:10px transparent solid;
+    border-top-color:#aeaeae;
+    border-width:15px 10px 0px 10px;
+    transform:rotate(60deg);
+    -ms-transform:rotate(60deg); 	/* IE 9 */
+    -moz-transform:rotate(60deg);	/* Firefox */
+    -webkit-transform:rotate(60deg); /* Safari 和 Chrome */
+    -o-transform:rotate(60deg);
+}
+.waterDrop_bindPhone3{
+    width: 26px;
+    height: 40px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.waterDrop_bindPhone3:before{
+    content:'3';
+    height:26px;
+    width:26px;
+    display:block;
+    position:absolute;
+    bottom:2px;
+    left:0px;
+    z-index:1;
+    line-height:26px;
+    background:#aeaeae;
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    color:#fff;
+    text-align:center;
+}
+.waterDrop_bindPhone3:after{
+    content:'';
+    height:0px;
+    width:0px;
+    display:block;
+    position:absolute;
+    top:4px;
+    left:1px;
+    border:10px transparent solid;
+    border-top-color:#aeaeae;
+    border-width:15px 10px 0px 10px;
+    transform:rotate(60deg);
+    -ms-transform:rotate(60deg); 	/* IE 9 */
+    -moz-transform:rotate(60deg);	/* Firefox */
+    -webkit-transform:rotate(60deg); /* Safari 和 Chrome */
+    -o-transform:rotate(60deg);
+}
+.testingPhone_bindPhone > *{
+    display: inline-block;
+}
+.testingPhone_bindPhone span:first-child{
+    font-weight: bold;
+}
+.testingPhone_bindPhone span:last-child a{
+    margin-left: 56px;
+    color: #006ec5;
+}
+.testingPhone_bindPhone span:last-child a:hover{
+    color: #ed682c;
+}
+.testingPhoneCode_bindPhone{
+    margin-top: 20px !important;
+}
+.testingPhoneCode_bindPhone input{
+    width: 205px;
+    height: 28px;
+    padding: 0 10px;
+}
+.testingPhoneCode_bindPhone button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #dadada;
+    font-family: "Microsoft Yahei";
+    background: #f9f9f9;
+    margin-left: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.testingPhoneCode_bindPhone label{
+    line-height: 30px;
+}
+.testingCode_bindPhone{
+    margin-top: 15px !important;
+}
+.testingCode_bindPhone input{
+    width: 205px;
+    height: 28px;
+    padding: 0 10px;
+}
+.testingCode_bindPhone button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-family: "Microsoft Yahei";
+    background: #f9f9f9;
+    margin-left: 5px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.testingCode_bindPhone span{
+    margin-left: 5px;
+}
+.testingCode_bindPhone span a{
+    color: #006ec5;
+}
+.testingCode_bindPhone span a:hover{
+    color: #ed682c;
+}
+.testingCode_bindPhone label{
+    line-height: 30px;
+}
+.submit_bindPhone{
+    margin-top: 36px !important;
+}
+.submit_bindPhone button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #dadada;
+    background: #006ec5;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.newPswd_bindPhone label{
+    line-height: 30px;
+}
+.newPswd_bindPhone i{
+    color: #ed510f;
+    font-style: normal;
+    margin-right: 2px;
+}
+.newPswd_bindPhone input{
+    width: 205px;
+    height: 28px;
+    padding: 0 10px; 
+}
+.newPswd_bindPhone p{
+    margin-top: 9px;
+    color: #aeaeae;
+}
+.newPswdAgain_bindPhone{
+    margin-top: 9px !important;
+}
+.newPswdAgain_bindPhone label{
+    line-height: 30px;
+}
+.newPswdAgain_bindPhone i{
+    color: #ed510f;
+    font-style: normal;
+    margin-right: 2px;
+}
+.newPswdAgain_bindPhone input{
+    width: 205px;
+    height: 28px;
+    padding: 0 10px;
+}
+.newPswdAgain_bindPhone button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #dadada;
+    font-family: "Microsoft Yahei";
+    background: #f9f9f9;
+    margin-left: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.testingCode_bindPhone input{
+    width: 205px;
+    height: 28px;
+    padding: 0 10px;
+}
+.testingCode_bindPhone button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-family: "Microsoft Yahei";
+    background: #f9f9f9;
+    margin-left: 5px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.testingCode_bindPhone span{
+    margin-left: 5px;
+}
+.testingCode_bindPhone span a{
+    color: #006ec5;
+}
+.testingCode_bindPhone span a:hover{
+    color: #ed682c;
+}
+.testingCode_bindPhone label{
+    line-height: 30px;
+}
+.alterSucceed_bindPhone{
+    margin-top: 67px;
+}
+.alterSucceed_bindPhone .uk-width-3-10{
+    width: 35%;
+}
+.alterSucceed_bindPhone .uk-width-7-10{
+    width: 65%;
+    padding-left: 27px;
+}
+.alterSucceed_bindPhone img{
+    margin-top: 24px;
+}
+.congratulation_bindPhone{
+    font-size: 29px;
+    color: #006ec5;
+    margin-bottom: 28px;
+}
+.safeduBox_bindPhone{
+    width: 100px;
+    height: 10px;
+    border: 1px solid #006ec5;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.safeduBox_bindPhone span{
+    width: 80%;
+    height: 10px;
+    background: #006ec5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.safeduLv_bindPhone{
+    color: #006ec5;
+    margin-left: 4px;
+}
+.alterSucceed_bindPhone .uk-width-7-10 p:last-child{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.alterSucceed_bindPhone .uk-width-7-10 p:last-child a{
+    color: #006ec5;
+}
+.alterSucceed_bindPhone .uk-width-7-10 p:last-child a:hover{
+    color: #7fc7ef;
+}
+.color_ed510f{
+    color: #006ec5;
+    margin-right: 2px;
+}
+#phoneBind,#phoneAlter{
+    display: none;
+}

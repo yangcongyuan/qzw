@@ -1,0 +1,244 @@
+input,select{
+    outline: none;
+    border: 1px solid #dadada;
+}
+.headIcon_personalData{
+    padding: 30px 30px 30px 15px;
+    background: #fff;
+    border-radius: 10px;
+    display: none;
+}
+.headIcon_personalData .uk-width-7-10{
+    width: 58%;
+}
+.headIcon_personalData .uk-width-3-10{
+    width: 35%;
+}
+.headIcon_personalData .uk-width-100 h1{
+    font-size: 20px;
+    color: #111111;
+    line-height: normal;
+    font-weight: bold;
+}
+.headIconLeft_personalData{
+    padding: 0 38px;
+}
+.headIconLeft_personalData > p:first-child{
+    margin-left: 19px;
+    font-size: 12px;
+    color: #111;
+    margin: 0;
+}
+.headIconLeft_personalData > p:first-child a{
+    color: inherit;
+}
+.headIconLeft_personalData > .uk-width-100 > p{
+    font-size: 12px;
+    color: #484848;
+    padding: 0;
+    margin: 0;
+}
+.defaultIcon_personalData{
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    padding: 26px 65px 38px 38px;
+    margin-top: 4px;
+}
+.defaultIcon_personalData .uk-width-1-2:last-child p{
+    color: #484848;
+    margin: 0;
+    padding: 0;
+}
+.recommend_personalData li{
+    display: inline-block;
+    margin-right: 11px;
+}
+.recommend_personalData li:last-child{
+    margin-right: 0;
+}
+.recommend_personalData li img{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.headIconRight_personalData{
+    border-left: 2px solid #dadada;
+    padding: 15px 0 0 40px;
+}
+.headIconRight_personalData .uk-width-100 p{
+    margin: 0;
+    padding: 0;
+}
+.headIconRight_personalData .uk-width-100 p:last-child{
+    font-size: 12px;
+    color: #484848;
+}
+.headIconRight_personalData .previewSmall_personalData img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+.headIconRight_personalData .previewSmall_personalData p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+.headIconRight_personalData .previewBig_personalData img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    margin-top: 45px;
+}
+.headIconRight_personalData .previewBig_personalData p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+.affirmAlter_personalData{
+    margin-top: 10px;
+    text-align: right;
+}
+.affirmAlter_personalData a{
+    color: #006ec5;
+}
+.affirmAlter_personalData a:hover{
+    color: #ed682c;
+}
+.affirmAlter_personalData i{
+    width: 4px;
+    height: 8px;
+    background: #006ec5;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.personalData{
+    padding: 15px 30px 20px 15px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.personalData > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.personalData .uk-grid .uk-width-1-3{
+    padding-left:45px;
+    border-right: 1px dashed #dadada;
+}
+.personalData .uk-grid .uk-width-1-3:last-child{
+	border:0;
+}
+.personalData .uk-grid .personalData_D{
+    border: none;
+}
+.personalData select{
+    font-family: "Microsoft Yahei";
+    height: 30px;
+}
+.personalData_A label{
+    display: inline-block;
+}
+label{
+    font-weight: normal !important;
+    margin-bottom: 0 !important;
+}
+input[type="radio"]{
+    margin: 0 !important;
+}
+.personalData_A{
+	width:29%;
+}
+.personalData_A label i{
+    color: #ed510a;
+    margin-right: 4px;
+    font-style: normal;
+}
+.personalData_A input{
+    width: 120px;
+    height: 28px;
+    display: inline-block;
+    padding-left:5px;
+}
+.personalData_A input:last-child{
+    width: 107px;
+}
+.personalData_A p{
+    font-size: 12px;
+    color: #878787;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    margin: 4px 0 15px 0;
+}
+.personalData_B{
+	width:39%;
+}
+/* .personalData_B #seleProvince,#seleCity{
+	display: block;
+} */
+.personalData_B .uk-width-100:last-child{
+    margin-top: 43px;
+}
+.personalData_B input{
+	width: 150px;
+    height: 28px;
+    padding-left:5px;
+}
+.personalData_C{
+	width:31%;
+}
+.personalData_C .uk-widht-100:first-child input{
+	width: 150px;
+    height: 28px;
+    padding-left:5px;
+}
+.provinceHome_personalData{
+    margin-left: 14px;
+}
+.bthdayYear_personalData{
+    width: 36px;
+    height: 20px !important;
+    font-size: 12px !important;
+    text-align: center;
+}
+.bthdayMonthAndDay_personalData{
+    width: 20px;
+    height: 20px !important;
+    font-size: 12px !important;
+    text-align: center;
+    padding: 0 !important;
+}
+.sexBorder_personalData{
+    border: 1px solid #DDD;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+.sexBorder_personalData label{
+    vertical-align: middle;
+}
+.sexBorder_personalData input[type=radio]{
+    vertical-align: middle;
+}
+.personalData_C .uk-width-100:last-child{
+    margin-top: 48px;
+}
+.personalData_D select{
+    width: 124px;
+    padding: 0 30px;
+}
+.personalData_D select option{
+    text-align: center;
+}
+.personalData .affirmAlter_personalData{
+    margin-top: 20px;
+}
+.personalLoginName_span{
+	display:none;
+}

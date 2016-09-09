@@ -1,0 +1,83 @@
+i{
+    font-style: normal;
+}
+.uk-grid.bindBankCard{
+    margin-left: 0;
+}
+.bindBankCard .uk-width-2-10{
+    width: 25%;
+}
+.bindBankCard .uk-width-8-10{
+    width: 75%;
+}
+.safeCenter_bindBankCard{
+    padding-top: 23px;
+    padding-left: 46px;
+}
+.safeCenter_bindBankCard li{
+    color: #373737;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.safeCenter_bindBankCard li a:hover{
+    color: #ed510a;
+}
+.safeCenter_bindBankCard li:first-child{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.safeCenter_bindBankCard li a{
+    color: #373737;
+}
+li.safeCenterSidebarActive_bindBankCard a{
+    color: #ed510a;
+}
+.tittle_bindBankCard{
+    color: #373737;
+    font-weight: bold;
+}
+.tittle_bindBankCard i{
+    width: 4px;
+    height: 8px;
+    background: #ed510a;
+    margin-right: 10px;
+    display: inline-block;
+}
+.step_bindBankCard{
+    border-radius: 10px;
+    background: #fff;
+    padding: 28px 40px 36px 40px;
+}
+.myBank_bindBankCard h1{
+    font-size: 18px;
+    color: #373737;
+    margin: 0px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 14px;
+}
+.myBank_bindBankCard p{
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.myBank_bindBankCard p i{
+    color: #ed510a;
+}
+.bankCardNumer_bindBankCard{
+    padding-left: 14px;
+    margin-top: 20px;
+}
+.bankCardNumer_bindBankCard > div{
+    width: 47%;
+    height: 220px;
+    background: #ed510a;
+}
+.bankCardNumer_bindBankCard > div:first-child{
+    float: left;
+}
+.bankCardNumer_bindBankCard > div:last-child{
+    float: right;
+}

@@ -1,0 +1,99 @@
+.support_project{
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 15px;
+	overflow:hidden;
+}
+.support_wz{
+	font-size:20px;
+}
+.support_project table thead{
+	background: #f9f9f9;
+	border-top:3px solid #cad1df;
+}
+.support_thead_proinfo{
+	float:left;
+	margin-left:30px;
+}
+.support_project table thead th,.support_project table tbody td{
+	padding:20px 8px;
+	text-align:center;
+}
+/* .support_projectinfo div{
+	text-align:left;
+} */
+.support_projectinfo img{
+	width:150px;
+	height:120px;
+}
+.support_projectinfo .uk-width-3-10{
+    width: 75%;
+}
+.support_projectinfo .uk-width-7-10{
+    width: 25%;
+}
+.support_project table tbody p{
+	margin:0;
+}
+.support_project table tbody tr{
+	border-bottom:1px solid #cad1df;
+}
+.support_tbody_infocon{
+	padding-top:20px;
+}
+.support_tbody_con{
+	padding-top:40px;
+}
+.support_operation{
+	margin-top:20px;
+	padding:10px 0;
+	border-left:1px solid #cad1df;
+}
+.support_operation_support{
+	color:#006ec5;
+}
+.support_operation_cancelfollow{
+	color:#000;
+}
+.support_operation_cancelfollow:hover,.support_operation_support:hover{
+	color:#006ec5;
+}
+.jszmx_table thead{
+	background: #f9f9f9;
+}
+.jszmx_table thead th{
+	text-align:center;
+}
+.uk-table td.jszmx_table_tsinfo{
+	padding:15px 8px;
+}
+.jszmx_table_fy{
+	margin:30px 15px;
+}
+.jszmx_table_fy .uk-pagination > .uk-active > span{
+	background: #006ec5;
+}
+.jszmx_table_fy .uk-pagination > li > a{
+	background: #e0e0e0;
+	color:#fff;
+}
+.jszmx_table_fy .uk-pagination > li > a:hover{
+	background:#006ec5;
+}
+.tzcz{
+	margin:0 10px;
+	padding:3px 0;
+}
+.tzcz input{
+	width:20px;
+	margin:0 10px;
+	vertical-align: middle;
+}
+.zw_fy_ts{
+	margin:0;
+	text-align: center;
+	color:#006ec5;
+	font-size: 20px;
+}

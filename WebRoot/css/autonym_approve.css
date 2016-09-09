@@ -1,0 +1,163 @@
+input{
+    outline: none;
+    border:1px solid #dadada;
+}
+button{
+    outline: none;
+}
+i{
+    font-style: normal;
+}
+.color_ed510f{
+    color: #ed510f;
+    margin-right: 2px;
+}
+.uk-grid.autonymApprove{
+    margin-left: 0;
+}
+.autonymApprove .uk-width-2-10{
+    width: 25%;
+}
+.autonymApprove .uk-width-8-10{
+    width: 75%;
+}
+.safeCenter_autonymApprove{
+    padding-top: 23px;
+    padding-left: 46px;
+}
+.safeCenter_autonymApprove li{
+    color: #373737;
+    width: 70px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.safeCenter_autonymApprove li a:hover{
+    color: #ed510a;
+}
+.safeCenter_autonymApprove li:first-child{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.safeCenter_autonymApprove li a{
+    color: #373737;
+}
+li.safeCenterSidebarActive_autonymApprove a{
+    color: #ed510a;
+}
+.step_autonymApprove{
+    border-radius: 10px;
+    background: #fff;
+    padding: 28px 40px 36px 40px;
+}
+.step_autonymApprove label{
+    line-height: 30px;
+}
+.step_autonymApprove .uk-grid{
+    margin-top: 15px;
+}
+.tittle_autonymApprove{
+    color: #373737;
+    font-weight: bold;
+}
+.tittle_autonymApprove i{
+    width: 4px;
+    height: 8px;
+    background: #ed510a;
+    margin-right: 10px;
+    display: inline-block;
+}
+.step_autonymApprove .uk-width-2-10,.step_autonymApprove .uk-width-8-10{
+    padding-left: 0;
+}
+.step_autonymApprove .uk-width-2-10{
+    width: 15%;
+}
+.step_autonymApprove .uk-width-8-10{
+    width: 85%;
+}
+.uk-grid.realName_autonymApprove{
+    margin-top: 174px;
+}
+.realName_autonymApprove input{
+    width: 140px;
+    height: 28px;
+    padding-left: 10px;
+}
+.realName_autonymApprove p{
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+    color: #ed510a;
+    margin-left: 2px;
+}
+.IDcard_autonymApprove input{
+    width: 290px;
+    height: 28px;
+    padding-left: 10px
+}
+.bankNumber_autonymApprove p{
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+    margin-left: 2px;
+}
+.bankNumber_autonymApprove p i{
+    color: #ed510a;
+    margin-right: 5px;
+}
+.bankNumber_autonymApprove input{
+    width: 290px;
+    height: 28px;
+    padding-left: 10px;
+}
+.phone_autonymApprove input{
+    width: 217px;
+    height: 28px;
+    padding-left: 10px;
+}
+.phone_autonymApprove button{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background: #f9f9f9;
+    border: 1px solid #dadada;
+    font-family: "Microsoft Yahei";
+    margin-left: 6px;
+}
+.message_autonymApprove input{
+    width: 217px;
+    height: 28px;
+    padding-left: 10px;
+}
+.testing_autonymApprove input{
+    width: 217px;
+    height: 28px;
+    padding-left: 10px;
+}
+.testing_autonymApprove button{
+    width: 120px;
+    height: 30px;
+    background: #f9f9f9;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    border: none;
+    margin-left: 6px;
+}
+.testing_autonymApprove p{
+    margin: 0;
+    display: inline-block;
+    margin-left: 3px;
+}
+.testing_autonymApprove p a{
+    color: #ed510a;
+}
+.testing_autonymApprove p a:hover{
+    color: #ed682c;
+}
+.submit_autonymApprove input{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background: #ed510f;
+    cursor: pointer;
+}

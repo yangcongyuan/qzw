@@ -1,0 +1,167 @@
+i{
+    font-style: normal;
+}
+.FAQ{
+    margin-top: 68px;
+}
+.firstFloor_FAQ{
+    overflow: hidden;
+}
+.title_FAQ{
+    display: inline-block;
+}
+.title_FAQ > img{
+    display: block;
+    float: left;
+}
+.title_FAQ > span{
+    display: block;
+    margin-left: 15px;
+    margin-top: 7px;
+    float: left;
+}
+.title_FAQ > span > p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+.title_FAQ > span > small{
+    color: #666;
+}
+.tab_FAQ{
+    float: right;
+    display: block;
+}
+.tab_FAQ li{
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+}
+.tab_FAQ li a{
+    color: inherit;
+    padding: 8px 18px;
+    display: inline-block;
+}
+.tab_FAQ li a:hover{
+    color: #fff;
+    background: #006ec5;
+}
+.tab_FAQ li.active1_FAQ{
+    background: #006ec5;
+    color: #fff;
+}
+.tab_FAQ li:nth-child(2){
+    margin: 0 21px;
+}
+.secondFloor_FAQ{
+    padding: 39px 35px 30px 36px;
+    background: #f5f5f5;
+    margin-top: 62px;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > div:nth-child(1){
+    color: #333;
+    font-size: 18px;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > div:nth-child(2){
+    width: 50px;
+    height: 3px;
+    background: #cecece;
+    margin: 16px 0 12px 0;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > ul{
+    margin: 0;
+    padding: 0;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > ul > li{
+    border-bottom: 1px solid #dedede;
+    padding: 9px 0;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > ul > li.uk-active{
+    color: #006ec5;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > ul > li:last-child{
+    border-bottom: none;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > ul > li a{
+    color: inherit;
+}
+.secondFloor_FAQ .titleFAQ_FAQ > ul > li a:hover{
+    color: #006ec5;
+}
+.secondFloor_FAQ .mainFAQ_FAQ{
+    margin-left: 10%;
+}
+.secondFloor_FAQ .mainFAQ_FAQ > div:nth-child(1){
+    font-size: 18px;
+    color: #333;
+}
+.secondFloor_FAQ .mainFAQ_FAQ > div:nth-child(1) i{
+    width: 4px;
+    height: 20px;
+    background: #006ec5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+.secondFloor_FAQ .mainFAQ_FAQ > ul{
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.questionMain_FAQ{
+    margin: 0;
+    padding: 0;
+}
+.questionMain_FAQ > li{
+    padding: 22px 20px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius:  10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.questionMain_FAQ > li:last-child{
+    margin-bottom: 0;
+}
+.issueT_FAQ{
+    color: #006ec5;
+}
+.issueT_FAQ span{
+    margin-left: 4px;
+}
+.issueT_FAQ span.unselect{
+    color: #333;
+}
+.issueT_FAQ i{
+    color: #333;
+}
+.issueM_FAQ{
+    margin-top: 21px;
+    line-height: 26px;
+    display: none;
+}
+@media (max-width: 765px){
+    .tab_FAQ{
+        width: 100%;
+        text-align: center;
+    }
+    .firstFloor_FAQ{
+        text-align: center;
+    }
+    .title_FAQ > span > p{
+        line-height: 40px;
+    }
+    .secondFloor_FAQ .mainFAQ_FAQ{
+        margin-left: 0;
+    }
+    .mainFAQ_FAQ{
+        margin-top: 20px;
+    }
+    .questionMain_FAQ{
+        padding-left: 0 !important;
+    }
+    .titleList_FAQ{
+        margin-top: 17px !important;
+    }
+}

@@ -1,0 +1,178 @@
+.gfzl{
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 15px;	
+}
+.gfzl_wz{
+	font-size: 20px;
+}
+.housePurchase_myCenter{
+    border-radius: 10px;
+    background: #fff;
+}
+.housePurchase_myCenter h1{
+    font-size: 20px;
+    color: #373737;
+    line-height: normal;
+    margin: 0;
+}
+.orderAndDispaymentAndComplete_myCenter{
+/*    overflow: hidden;*/
+    margin-top: 15px;
+    border: transparent solid 1px;
+}
+.orderAndDispaymentAndComplete_myCenter > li{
+    display: inline-block;
+}
+.orderLately_myCenter{
+    text-align: left;
+}
+.disPayment_myCenter{
+    margin-left: 42px;
+    margin-right: 62px;
+    position: relative;
+}
+.disPayment_myCenter i{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    background: #ed510a;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -21px;
+    text-align: center;
+    line-height: 16px;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-dropdown{
+    padding: 0;
+/*    margin-left: 15px;*/
+}
+.orderAndDispaymentAndComplete_myCenter .uk-nav-dropdown{
+    background: #fff;
+    border: #f5f5f5 1px solid;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding-left: 0;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-nav-dropdown > li > a{
+    text-align: center;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-nav-dropdown > li > a:hover{
+    background: none;
+    color: #ed510a;
+}
+a.orderActive_myCenter{
+    color: #ed510a !important;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-button{
+    background: none;
+    padding: 0;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-icon-caret-down{
+    margin-left: 11px;
+}
+.allOrderHref_myCenter i{
+    margin-top:5px;
+}
+.allOrderHref_myCenter{
+    color: #ed510a;
+    float: right;
+    margin-right: 15px;
+}
+.orderNumber_myCenter{
+    border: 1px solid #dadada;
+    padding: 7px 10px;
+    background: #f9f9f9;
+}
+.housePurchaseTable_myCenter ul{
+    border-left: 1px solid #dadada;
+/*    border-bottom: 1px solid #dadada;*/
+    border-right: 1px solid #dadada;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+.housePurchase_myCenter .housePurchaseTable_myCenter:last-child ul{
+    border-bottom: 1px solid #dadada;
+}
+.housePurchaseTable_myCenter ul li{
+    float: left;
+    margin-right: 135px;
+}
+.housePurchaseTable_myCenter ul li:last-child{
+    float: right;
+    margin-right: 0;
+}
+.housePurchaseIcon_myCenter{
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+.houseInformation_myCenter{
+    color: #484848;
+    margin-top: 20px;
+}
+.houseInformation_myCenter i{
+    font-style: normal;
+}
+.dealTime_myCenter{
+    line-height: 100px;
+}
+.dealUserName_myCenter{
+    line-height: 100px;
+}
+.dealUserName_myCenter i{
+    margin-left: 10px;
+    color: #dadada;
+    font-size: 20px;
+}
+.housePurchasePlan_myCenter{
+    text-align: center;
+    margin-left: 155px;
+}
+.housePurchasePlan_myCenter > p{
+    margin: 0;
+    font-size: 12px;
+    color: #ed510a;
+}
+.housePurchasePlan_myCenter > p:first-child{
+    margin-top: 21px;
+    font-size: 14px;
+    color: #484848;
+}
+.housePurchasePlanLine_myCenter{
+    position: relative;
+    width: 60px;
+    margin: 6px auto;
+}
+.housePurchasePlanLine_myCenter span:first-child{
+    width: 60px;
+    height: 5px;
+    border: 1px solid #ed510a;
+    border-radius: 4px;
+    display: block;
+}
+.housePurchasePlanLine_myCenter span:last-child{
+    width: 60%;
+    height: 5px;
+    background: #ed510a;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.paymentMoney_myCenter{
+    padding: 6px 36px 0px 36px;
+    border-left: 1px solid #dadada;
+    margin-top: 12px;
+}
+.paymentMoney_myCenter p{
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+.account_detail{
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 30px;
+	margin-bottom:30px;
+}
+.account_ye{
+	margin-top:5px !important;
+}
+.account_yeinfo p{
+	font-size:18px;
+	margin-bottom:0;
+}
+.account_orfont{
+	font-size:24px;
+	color:#ed510a;
+}
+.account_safefont,.account_safefont .account_orfont{
+	font-size:14px;
+}
+.account_safefont p{
+	margin-top:7px;
+}
+.txzzbtn{
+	background:#ed510a;
+	color:#fff;
+	width:85px;
+	border:1px solid #dadada;
+}
+.txzzbtn:hover{
+	background:#ed682c;
+	color:#fff;
+}
+.account_szmx{
+	background: #fff;
+	padding:20px 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow:hidden;
+}
+.tab_szmx_til{
+	margin-bottom:20px;
+}
+.tab_szmx_til.uk-subnav-pill > .uk-active > *{
+	background: #fff;
+	color:#ed510a;
+}
+.tab_szmx_til.uk-subnav > *{
+	padding-left:0;
+}
+.tab_szmx_til.uk-subnav-pill > * > *{
+	padding:0 9px;
+}
+.tab_szmx_til.uk-subnav-pill > li > a:hover{
+	background:#fff;
+	color:#ed510a;
+}
+.jszmx_table thead{
+	background: #f9f9f9;
+}
+.jszmx_table thead th{
+	text-align:center;
+}
+.uk-table td.jszmx_table_tsinfo{
+	padding:15px 8px;
+}
+.jszmx_table_fy{
+	margin-top:70px;
+}
+.jszmx_table_fy .uk-pagination > .uk-active > span{
+	background: #ed510a;
+}
+.jszmx_table_fy .uk-pagination > li > a{
+	background: #e0e0e0;
+	color:#fff;
+}
+.jszmx_table_fy .uk-pagination > li > a:hover{
+	background:#ed510a;
+}
+.tzcz{
+	margin:0 10px;
+	padding:3px 0;
+}
+.tzcz input{
+	width:20px;
+	margin:0 10px;
+	vertical-align: middle;
+}

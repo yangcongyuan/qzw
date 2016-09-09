@@ -1,0 +1,476 @@
+.my_center_topbg{
+    background: url("../images/my_center_topbg.png") center center no-repeat;
+    padding: 26px 30px 26px 15px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+@media (min-width: 1220px){
+    .my_center_topbg.uk-grid{
+        margin-left: 0;
+    }
+}
+.my_center_topbg.uk-grid{
+    margin-left: 0;
+}
+/*
+.my_center_topbg.uk-grid > *{
+    margin: 0;
+    padding: 0;
+}
+*/
+.my_center_topbg.uk-grid .uk-width-3-10{
+    width: 25%;
+    margin-top: 15px;
+}
+.my_center_topbg.uk-grid .uk-width-2-10{
+    width: 18%;
+    margin-left: 42px;
+    display: none;
+}
+.my_center_topbg.uk-grid .uk-width-5-10{
+    width: 75%;
+}
+.my_center_topbg.uk-grid p{
+    margin: 0;
+    padding: 0;
+}
+.userIcon_myCenter{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    float: left;
+    display: none;
+}
+.userMessageBox_myCenter{
+    /* float: left; */
+    margin-left: 14px;
+    position: relative;
+    left:50%;
+    margin-left:-68px;
+}
+.userMessageBox_myCenter  h2{
+    margin: 0;
+    display: inline;
+}
+.userMessageBox_myCenter  small{
+    color: #006ec5;
+    margin-left: 6px;
+}
+.accountSafeLevel_myCenter{
+    margin-top: 8px;
+}
+.accountSafeLevel_myCenter p{
+    font-size: 14px;
+    color: #505050;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lvSafeLineDegree_myCenter{
+    margin-top: 4px;
+}
+.lvBox_myCenter{
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin-right: 4px;
+}
+.levelLineBox_myCenter{
+    width: 98px;
+    height: 8px;
+    border: 1px solid #7fc7ef;
+    display: block;
+    border-radius: 5px;
+}
+.levelLine_myCenter{
+    width: 80%;
+    height: 8px;
+    background: #006ec5;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.lvDegree_myCenter{
+    font-size: 14px;
+    display: inline-block;
+    color: #505050;
+}
+.pwmessageAndAutonym_myCenter{
+    margin-top: 5px;
+}
+.pwmessageAndAutonym_myCenter a{
+    color: #444;
+    font-size: 14px;
+}
+.pwmessageAndAutonym_myCenter a:hover{
+	color:#006ec5;
+}
+.pwmessageAndAutonym_myCenter i{
+    width: 3px;
+    height: 10px;
+    background: #006ec5;
+    display: inline-block;
+    margin: 0 6px;
+}
+.matterAndPlan_myCenter{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.matterAndPlan_myCenter li{
+/*    width: 50px;*/
+    float: left;
+}
+.matterAndPlan_myCenter li:first-child{
+    margin-right: 45px;
+}
+.matterAndPlan_myCenter li:first-child span{
+    width: 50px;
+    height: 50px;
+    background: #006ec5 url("../images/matter_myCenter.png") center center no-repeat;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.matterAndPlan_myCenter li p{
+    color: #006ec5;
+    text-align: center;
+    position: relative;
+}
+.matterAndPlan_myCenter li i{
+    width: 16px;
+    height: 16px;
+    font-style: normal;
+    color: #fff;
+    background: #006ec5;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    right: -20px;
+    top: 2px;
+}
+.matterAndPlan_myCenter li:last-child span{
+    width: 50px;
+    height: 50px;
+    background: #006ec5 url("../images/Plan_myCenter.png") center center no-repeat;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.disorderAndProject_myCenter{
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+    overflow: hidden;
+    margin-left: -14px;
+}
+.disorderAndProject_myCenter li{
+/*    width: 50px;*/
+    float: left;
+}
+.disorderAndProject_myCenter li:first-child{
+    margin-right: 45px;
+}
+.disorderAndProject_myCenter li:first-child span{
+    width: 50px;
+    height: 50px;
+    background: #006ec5 url("../images/disorder_myCenter.png") center center no-repeat;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.disorderAndProject_myCenter li p{
+    color: #006ec5;
+    text-align: center;
+    position: relative;
+}
+.disorderAndProject_myCenter li i{
+    width: 16px;
+    height: 16px;
+    font-style: normal;
+    color: #fff;
+    background: #006ec5;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    right: -20px;
+    top: 2px;
+}
+.disorderAndProject_myCenter li:last-child{
+    margin-left: -14px;
+}
+.disorderAndProject_myCenter li:last-child span{
+    width: 50px;
+    height: 50px;
+    background: #006ec5 url("../images/Project_myCenter.png") center center no-repeat;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.firstForm_myCenter{
+    margin-top: 26px;
+}
+.firstForm_myCenter label{
+    margin-left: 32px;
+}
+.mycen_firfor_row{
+	display: inline-block;
+	margin-left: 32px;
+}
+.mycen_firfor_row span{
+	display: inline-block;
+	overflow: hidden;
+}
+.mycen_firfor_row span:last-child{
+	width:135px;
+	white-space:nowrap;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+}
+.lastFotm_myCenter span{
+	width:121px;
+	display: inline-block;
+}
+.loginName_myCenter{
+    width: 121px;
+    height: 30px;
+    text-align: center;
+}
+.phoneNumber_myCenter{
+    width: 152px;
+    height: 30px;
+    text-align: center;
+}
+.sexBorder_myCenter{
+    border: 1px solid #DDD;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+.lastFotm_myCenter{
+    margin-top: 36px;
+}
+.lastFotm_myCenter .margin{
+    margin-left: 32px;
+}
+.lastFotm_myCenter .birthday_lebel{
+	margin-left:30px;
+}
+.userCustomName_myCenter{
+    width: 107px;
+    text-align: center;
+}
+.bthdayYear_myCenter{
+    width: 52px;
+    height: 20px !important;
+    font-size: 12px !important;
+    text-align: center;
+}
+.bthdayMonthAndDay_myCenter{
+    width: 20px;
+    height: 20px !important;
+    font-size: 12px !important;
+    text-align: center;
+    padding: 0 !important;
+}
+.amend_myCenter{
+    margin-top: 14px;
+}
+.amend_myCenter .common_division{
+	margin-top:5px;
+}
+.amend_myCenter span{
+    width: 4px;
+    height: 8px;
+    background: #006ec5;
+    display: inline-block;
+}
+.amend_myCenter p{
+    display: inline-block;
+    color: #006ec5;
+}
+.housePurchase_myCenter{
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 26px;
+}
+.housePurchase_myCenter h1{
+    font-size: 20px;
+    color: #373737;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.orderAndDispaymentAndComplete_myCenter{
+/*    overflow: hidden;*/
+    margin-top: 15px;
+    border: transparent solid 1px;
+}
+.orderAndDispaymentAndComplete_myCenter > li{
+    display: inline-block;
+}
+.orderLately_myCenter{
+    text-align: left;
+}
+.disPayment_myCenter{
+    margin-left: 42px;
+    margin-right: 62px;
+    position: relative;
+}
+.disPayment_myCenter i{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    background: #006ec5;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -21px;
+    text-align: center;
+    line-height: 16px;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-dropdown{
+    padding: 0;
+/*    margin-left: 15px;*/
+}
+.orderAndDispaymentAndComplete_myCenter .uk-nav-dropdown{
+    background: #fff;
+    border: #f5f5f5 1px solid;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding-left: 0;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-nav-dropdown > li > a{
+    text-align: center;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-nav-dropdown > li > a:hover{
+    background: none;
+    color: #006ec5;
+}
+a.orderActive_myCenter{
+    color: #006ec5 !important;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-button{
+    background: none;
+    padding: 0;
+}
+.orderAndDispaymentAndComplete_myCenter .uk-icon-caret-down{
+    margin-left: 11px;
+}
+.allOrderHref_myCenter i{
+    width: 4px;
+    height: 8px;
+    background: #006ec5;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+}
+.allOrderHref_myCenter{
+    color: #006ec5;
+    float: right;
+    margin-right: 15px;
+}
+.orderNumber_myCenter{
+    border: 1px solid #dadada;
+    padding: 7px 10px;
+    background: #f9f9f9;
+}
+.housePurchaseTable_myCenter ul{
+    border-left: 1px solid #dadada;
+/*    border-bottom: 1px solid #dadada;*/
+    border-right: 1px solid #dadada;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+.housePurchase_myCenter .housePurchaseTable_myCenter:last-child ul{
+    border-bottom: 1px solid #dadada;
+}
+.housePurchaseTable_myCenter ul li{
+    float: left;
+    margin-right: 200px;
+}
+.housePurchaseTable_myCenter ul li:last-child{
+    float: right;
+    margin-right: 0;
+}
+.housePurchaseIcon_myCenter{
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+.houseInformation_myCenter{
+    color: #484848;
+    margin-top: 20px;
+}
+.houseInformation_myCenter i{
+    font-style: normal;
+}
+.dealTime_myCenter{
+    line-height: 100px;
+}
+.dealUserName_myCenter{
+    line-height: 100px;
+}
+.dealUserName_myCenter i{
+    margin-left: 10px;
+    color: #dadada;
+    font-size: 20px;
+}
+.housePurchasePlan_myCenter{
+    text-align: center;
+    margin-left: 155px;
+}
+.housePurchasePlan_myCenter > p{
+    margin: 0;
+    font-size: 12px;
+    color: #006ec5;
+}
+.housePurchasePlan_myCenter > p:first-child{
+    margin-top: 21px;
+    font-size: 14px;
+    color: #484848;
+}
+.housePurchasePlanLine_myCenter{
+    position: relative;
+    width: 60px;
+    margin: 6px auto;
+}
+.housePurchasePlanLine_myCenter span:first-child{
+    width: 60px;
+    height: 5px;
+    border: 1px solid #006ec5;
+    border-radius: 4px;
+    display: block;
+}
+.housePurchasePlanLine_myCenter span:last-child{
+    width: 60%;
+    height: 5px;
+    background: #006ec5;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.paymentMoney_myCenter{
+    padding: 6px 36px 0px 36px;
+    border-left: 1px solid #dadada;
+    margin-top: 12px;
+}
+.paymentMoney_myCenter p{
+    text-align: center;
+}

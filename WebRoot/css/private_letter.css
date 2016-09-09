@@ -1,0 +1,290 @@
+.title_privateLetter{
+    padding-left: 28px;;
+    margin-top: 30px;
+}
+.title_privateLetter h1{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+}
+.title_privateLetter div{
+    width: 80px;
+    height: 4px;
+    background: #7fc7ef;
+    margin-top: 7px;
+}
+.private_letter_topbg{
+    background: url("../images/my_center_topbgReverse.png") center center no-repeat;
+    padding: 26px 0 26px 0;
+    margin-top: 18px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+@media (min-width: 1220px){
+    .private_letter_topbg.uk-grid{
+        margin-left: 0;
+    }
+}
+.private_letter_topbg.uk-grid{
+    margin-left: 0;
+}
+.private_letter_topbg.uk-grid .uk-width-3-10{
+    width: 24%;
+    margin: 14px 0;
+    margin-left: 30px;
+    display: none;
+}
+.private_letter_topbg.uk-grid .uk-width-7-10{
+    width: 95%;
+    margin-left: 30px;
+    text-align: center;
+}
+.private_letter_topbg.uk-grid p{
+    margin: 0;
+    padding: 0;
+}
+.userIcon_privateLetter{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    float: left;
+}
+.userMessageBox_privateLetterr{
+    float: left;
+    margin-right: 14px;
+}
+.userMessageBox_privateLetterr  h2{
+    margin: 0;
+    display: inline;
+}
+.userMessageBox_privateLetterr  small{
+    color: #006ec5;
+    margin-left: 6px;
+}
+.accountSafeLevel_privateLetter{
+    margin-top: 8px;
+}
+.accountSafeLevel_privateLetter p{
+    font-size: 14px;
+    color: #505050;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lvSafeLineDegree_privateLetter{
+    margin-top: 4px;
+}
+.lvBox_privateLetter{
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin-right: 4px;
+}
+.lvBox_privateLetter span:first-child{
+     width: 98px;
+    height: 8px;
+    border: 1px solid #fe7a3f;
+    display: block;
+    border-radius: 5px;
+}
+.lvBox_privateLetter span:last-child{
+    width: 80%;
+    height: 8px;
+    background: #006ec5;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.lvSafeLineDegree_privateLetter p:last-child{
+    font-size: 14px;
+    display: inline-block;
+    color: #505050;
+}
+.pwmessageAndAutonym_privateLetter{
+    margin-top: 5px;
+}
+.pwmessageAndAutonym_privateLetter span{
+    color: #505050;
+    font-size: 14px;
+}
+.pwmessageAndAutonym_privateLetter i{
+    width: 3px;
+    height: 10px;
+    background: #006ec5;
+    display: inline-block;
+    margin: 0 6px;
+}
+.unread_privateLetter{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    margin-right: 110px;
+    cursor: pointer;
+}
+.read_privateLetter{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 90px;
+    position: relative;
+    cursor: pointer;
+}
+.unread_privateLetter i:first-child{
+    width: 2em;
+    font-size: 20px;
+    color: #7fc7ef;
+}
+.unread_privateLetter i.uk-badge{
+    display: inline-block;
+    font-style: normal;
+    background: #7fc7ef;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.read_privateLetter i:first-child{
+    width: 2em;
+    font-size: 20px;
+    color: #7fc7ef;
+}
+.read_privateLetter i.uk-badge{
+    display: inline-block;
+    font-style: normal;
+    background: #7fc7ef;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+/* .private_letter_topbg .uk-width-7-10 .uk-width-100:first-child{
+    margin-top: 50px;
+} */
+.line_privateLetter{
+    width: 100%;
+    height: 13px;
+    border-radius: 10px;
+    background: #7fc7ef;
+    margin-top: 6px;
+}
+.line_privateLetter span{
+    width: 100px;
+    height: 13px;
+    /* background: url("../images/line1px_privateLetter.png") center center repeat-x; */
+    background:#006ec5;
+    display: block;
+    margin-left: 360px;
+}
+.privateLetterContent_privateLetter{
+    padding: 0px 30px 0px 34px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 17px;
+    border-bottom: 1px solid #dadada;
+}
+.privateLetter{
+    padding-top: 32px;
+}
+.userNameAndTime_privateLetter img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+}
+.userNameAndTime_privateLetter .userName{
+    font-size: 18px;
+    color: #333;
+    line-height: 65px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+.userNameAndTime_privateLetter .time{
+    font-size: 18px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 65px;
+}
+.userNameAndTime_privateLetter .time i{
+    font-size: 18px;
+}
+.userNameAndTime_privateLetter .time i:hover{
+    color: #006ec5;
+    cursor: pointer;
+}
+.userNameAndTime_privateLetter .uk-dropdown{
+    width: 110px;
+    padding: 0;
+}
+.userNameAndTime_privateLetter .uk-dropdown-left{
+/*    margin-left: 135px;*/
+}
+.content_privateLetter{
+    padding: 28px 0 54px 83px;
+    margin: 0;
+    border-bottom: 1px solid #dadada;
+    color: #666666;
+}
+.angleDown_privateLetter{
+    width: 130px;
+    border: 1px solid #dadada;
+    padding: 18px 0;
+    background: #fff;
+}
+.angleDown_privateLetter li{
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.angleDown_privateLetter li:hover{
+    color: #006ec5;
+    cursor: pointer;
+    /* background: #e6e6e6; */
+}
+.angleDown_privateLetter li:last-child{
+    margin-bottom: 0;
+}
+.reply_pl{
+    font-family: "Microsoft Yahei";
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    resize: none;
+    display: block;
+}
+.jszmx_table_fy{
+	margin:30px 15px;
+}
+.jszmx_table_fy .uk-pagination > .uk-active > span{
+	background: #006ec5;
+}
+.jszmx_table_fy .uk-pagination > li > a{
+	background: #e0e0e0;
+	color:#fff;
+}
+.jszmx_table_fy .uk-pagination > li > a:hover{
+	background:#006ec5;
+}
+.tzcz{
+	margin:0 10px;
+	padding:3px 0;
+}
+.tzcz input{
+	width:20px;
+	margin:0 10px;
+	vertical-align: middle;
+}
+.letter_zw{
+	text-align:center;
+	font-size:24px;
+	color:#006ec5;
+	padding:20px 0;
+	margin:0;
+}

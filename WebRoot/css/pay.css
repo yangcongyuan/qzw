@@ -1,0 +1,236 @@
+.pay{
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 30px 130px;
+	margin-top:30px;
+	overflow: hidden;
+}
+.pay_step{
+	margin-bottom:35px;
+}
+.pay_step p{
+	text-align:center;
+}
+.pay_step .pay_step_default + p{
+	color:#cccccc;
+}
+.pay_step .pay_step_now + p{
+	color:#ed510a;
+}
+.pay_step_default{
+	height:8px;
+	background: #cccccc;
+	text-align:center;
+}
+.pay_step .uk-width-1-3{
+	width:32.48%;
+	margin-right:12px;
+}
+.pay_step .uk-width-1-3:last-child{
+	margin-right:0;
+}
+.pay_step_now{
+	background: #ed510a;
+}
+.uk-badge-default{
+	background: #ccc;
+	color:#fff;
+	min-width:20px;
+	line-height:20px;
+	font-size:14px;
+	margin-top:-10px;
+}
+.pay_step_now .uk-badge-now{
+	background: #ed510a;
+}
+.pay_order_detailstep{
+	overflow:hidden;
+}
+.pay_order_detail{
+	border:1px solid #ed510a;
+	padding: 25px 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.order_detail_wz{
+	color:#ed510a;
+}
+.order_detail_con{
+	margin:0 30px;
+	border:1px solid #ed510a;
+	padding: 15px;
+	min-height:110px;
+	margin-bottom:50px;
+}
+.order_detail_con p{
+	text-indent: 2em;
+}
+.order_detail_img{
+	margin-bottom:30px;
+}
+.order_pay_prompt{
+	margin:30px 30px 90px 30px;
+}
+.order_pay_prompt p{
+	margin:0;
+	color:#b3b3b3;
+}
+.pay_prompt_til{
+	font-size: 16px;
+}
+.pay_prompt_con{
+	padding:30px 20px;
+}
+.pay_prompt_con p{
+	line-height:25px;
+}
+.pay_prompt_message span{
+	color:#ed510a;
+}
+.pay_prompt_message input{
+	margin-left:15px;
+	border:1px solid #ed510a;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:273px;
+}
+.order_pay_realmoney{
+	font-size:20px;
+	text-align: right;
+	margin-right:7px;
+}
+.order_pay_enterinfo{
+	margin-bottom:105px;
+}
+.order_pay_enterinfo p{
+	margin-bottom:30px;
+}
+.order_pay_protocol{
+	color:#ed510a;
+	text-align: right;
+}
+.order_pay_protocol input{
+	margin-right:10px;
+}
+.order_pay_enterorderbtn{
+	float:right;
+	background: #ed510a;
+	color:#fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	width:128px;
+	padding:10px 0;
+	margin-right:4px;
+	margin-left:20px;
+}
+.order_pay_enterorderbtn:hover{
+	background: #ed682c;
+	color:#fff;
+}
+.pay_order_paystep{
+	overflow: hidden;
+}
+.paystep_zfxq_wz{
+	margin-left:30px;
+	color:#ed510a;
+}
+.paystep_zfxq_wz span{
+	margin-left:10px;
+	vertical-align: middle;
+}
+.order_pay_paymoney{
+	margin:30px 0;
+	background: #fb8149;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.pay_paymoney{
+	border:1px solid #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 15px 25px;
+	overflow: hidden;
+}
+.pay_paymoney p{
+	margin:0;
+}
+.pay_paymoney_wz{
+	color:#fff;
+}
+.pay_paymoney_num{
+	color:#373737;
+}
+.order_pay_way{
+	border:1px solid #ed510a;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:20px 30px;
+}
+.pay_way_wz{
+	color:#ed510a;
+	margin-bottom:20px;
+}
+.pay_way_nav{
+	width:100%;
+	overflow: hidden;
+	max-width:42.37%;
+	background: #fafafa;
+	padding:0 25px;
+	margin-bottom:45px;
+}
+.pay_way_nav.uk-navbar-nav > li.uk-active > a{
+	background: #fafafa;
+	border-bottom:2px solid #ed510a;
+}
+.pay_way_nav.uk-navbar-nav > li.uk-active > a:hover{
+	color:inherit;
+}
+.pay_way_nav.uk-navbar-nav > li > a:hover{
+	background: #fafafa;
+	color:#ed510a;
+}
+#pay_way_con{
+	padding:0 25px;
+}
+.pay_way_selbank{
+	margin-bottom:15px;
+}
+.pay_way_selbank img{
+	border:1px solid #f4f4f4;
+	margin-left:5px;
+}
+.pay_order_finishstep{
+	text-align: center;
+	padding-top:25px;
+}
+.pay_succinfo{
+	font-size: 30px;
+	color:#ed510a;
+	vertical-align: middle;
+}
+.order_pay_backhome{
+	margin-top:175px;
+	margin-bottom:90px;
+}
+.pay_backhome_btn{
+	background: #ed510a;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color:#fff;
+	width:105px;
+	padding:9px 0;
+}
+.pay_backhome_btn:hover{
+	background: #ed682c;
+	color:#fff;
+}

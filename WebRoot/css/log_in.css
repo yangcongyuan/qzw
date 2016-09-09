@@ -1,0 +1,253 @@
+html,body{
+    height: 100%;
+}
+.loginbg_log_in{
+    width: 100%;
+    height: 100%;
+    background: url("../images/login_bg.jpg") center center no-repeat;
+    position: relative;
+}
+.two_btn{
+    overflow: hidden;
+    margin: 0 auto;
+    height: 100%;
+}
+.login_log_in{
+    width: 329px;
+    height: 67px;
+    border-radius: 10px;
+    background: #006ec5;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+}
+.login_log_in:hover,.login_log_in:active,.login_log_in:focus{
+    background: #3087cc;
+    color:#fff;
+}
+.register_log_in:hover,.register_log_in:active,.register_log_in:focus{
+/*    border: 3px solid #e8e8e8;*/
+    border: none;
+    background: #fff;
+    color: #006ec5;
+}
+.register_log_in{
+    width: 329px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    margin-left: 5px;
+    background: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+.loginbox_log_in,.registerbox_log_in{
+    width: 260px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+    padding: 30px 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+    top: 50%;
+    margin-top: -150px;
+    display: none;
+}
+.loginbox_log_in  h3,.registerbox_log_in h3{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+.user_log_in,.applyFor_log_in,.applyFor2_log_in{
+    margin-top: 29px;
+}
+.user_log_in > a,.applyFor_log_in > a,.applyFor2_log_in > a{
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    color: #006ec5;
+    background: #f0f0f0;
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+}
+.user_log_in > input,.applyFor_log_in > input,.applyFor2_log_in > input{
+    width: 220px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    line-height: 40px;
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+.password_log_in,.authCode_log_in,.invitationCode_log_in,.password2_log_in,.passwordAffirm_log_in{
+    margin-top: 20px;
+}
+.password_log_in > a,.authCode_log_in > a,.invitationCode_log_in > a,.password2_log_in > a,.passwordAffirm_log_in > a{
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    color: #006ec5;
+    background: #f0f0f0;
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+}
+.password_log_in > input,.password2_log_in > input,.passwordAffirm_log_in > input{
+    width: 220px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    line-height: 40px;
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+.authCode_log_in > input,.invitationCode_log_in > input{
+    width: 170px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    line-height: 40px;
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+.authCode_log_in botton,.invitationCode_log_in botton{
+    width: 90px;
+    height: 40px;
+    color: #006ec5;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    background: #f0f0f0;
+}
+.authCode_log_in botton:hover{
+    color: #3087cc;
+    background: #e5e5e5;
+    cursor: pointer;
+}
+.forgetPasw_log_in{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 9px;
+}
+.forgetPasw_log_in:hover{
+    color: #006ec5;
+}
+.loginBtn_log_in{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    height: 40px;
+    background: #006ec5;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 43px;
+}
+.registerBtn_log_in{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    height: 40px;
+    background: #006ec5;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 22px;
+}
+.loginBtn_log_in:hover,.registerBtn_log_in:hover{
+    color: #fff;
+    background: #3087cc;
+}
+.close{
+    position: absolute;
+    top: -15px;
+    right: -45px;
+    font-size: 20px;
+    color: #006ec5;
+}
+.close:hover{
+    color: #3087cc;
+}
+.ckbox{
+    background: transparent;
+    vertical-align: middle;
+}
+.agree_zcdeal{
+    margin-top: 10px;
+}
+.agree_zcdeal label{
+    color: #fff;
+    font-size: 12px;
+}
+.gjb_deal{
+    color: #006ec5;
+    font-size: 12px;
+}
+.gjb_deal:hover{
+    color: #3087cc;
+}
+.emailRegister,.phoneRegister{
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+.emailRegister:hover,.phoneRegister:hover{
+    color: #e5e5e5;
+}
+.close_deal{
+    font-size: 20px;
+}
+#registerboxPhone_log_in,#registerboxEmail_log_in{
+    margin-top: -265px;
+}
+.login_btngroup{
+	width:100%;
+	margin:0 10px;
+}
+.login_btngroup a{
+	width:48%;
+	height:50px;
+	line-height: 50px;
+}
+.login_btngroup .register_log_in{
+	margin-left: 2%;
+}
+@media (max-width: 765px){
+	.loginbg_log_in{
+		-webkit-background-size: 267% 100%;
+		background-size: 267% 100%;
+	}
+	
+}
+@media (max-width: 959px){
+	.two_btn input{
+		display: none;
+	}
+}
+@media (max-width: 640px){
+    .loginbox_log_in,.registerbox_log_in{
+        transform: scale(0.8);
+    }
+    #registerboxPhone_log_in, #registerboxEmail_log_in{
+        margin-top: -66%;
+    }
+}

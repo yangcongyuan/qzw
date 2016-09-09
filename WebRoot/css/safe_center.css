@@ -1,0 +1,141 @@
+.safe_content{
+	background:#fff;
+	padding:30px 40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.safe_contil{
+	font-size:20px;
+	margin-bottom:30px;
+}
+.safe_lv{
+	background:#f9f9f9;
+	padding:10px 15px 5px 15px;
+	border-radius:10px;
+}
+.safe_lv_icon{
+	margin:5px 0 10px 0;
+}
+.safe_aqdj{
+	color:#a1a1a1;
+	vertical-align: middle;
+	margin:0 20px 0 10px;
+}
+.safe_lv .safe_progress{
+	margin-top:0;
+	margin-bottom:0;
+	display:inline-block;
+	width:10%;
+	vertical-align: middle;
+	background:#fff;
+	border:1px solid #7fc7ef;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.safe_lv .safe_progress .uk-progress-bar{
+	background: #006ec5;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.safe_aqinfo{
+	color:#71b247;
+	margin:0 10px 0 5px;
+}
+.safe_proposal{
+	color:#006ec5;
+}
+.safe_con_info{
+	padding:20px;
+	border-bottom:1px solid #dadada;
+}
+.safe_con_infoname span{
+	vertical-align: middle;
+	font-size:24px;
+	margin:0 50px 0 10px;
+}
+.safe_con_infoname{
+	border-right:1px solid #dadada;
+	padding:10px 20px;
+	width:27%;
+}
+/*
+.safe_con_infoprompt{
+	width:46%;
+	
+}
+*/
+.safe_con_infoprompt span{
+	font-size: 12px;
+	color: #006ec5;
+	display:block;
+	padding:16px 0;
+	margin-left:15%;
+}
+/*
+.safe_con_infoprompt_other{
+	width:46%;
+}
+*/
+.safe_con_infoprompt_other_wz{
+	font-size: 12px;
+	color: #a0a0a0;
+	display:block;
+	padding:16px 0;
+	margin-left:15%;
+}
+.safe_con-infooperate span{
+	padding:16px 0;
+	display:block;
+	float:right;
+	margin-right:18%;
+}
+.safe_con-infooperate span a{
+	color:#000;
+	margin-right:10px;
+}
+.safe_con-infooperate span a:hover{
+	color:#006ec5;
+}
+.safe_con-infooperate_other span{
+	padding:16px 0;
+	display:block;
+	float:right;
+}
+.safe_con-infooperate_other span a{
+	color:#006ec5;
+	margin-right:10px;
+}
+.safe_con_infoprompt_warn{
+	color:#006ec5;
+}
+.safe_con_infoprompt_phone{
+	margin-right:10px;
+}
+.safe_con_infoprompt_other_wz .safe_con_infoprompt_progress{
+	margin-top:0;
+	margin-bottom:0;
+	display:inline-block;
+	width:20%;
+	vertical-align: middle;
+	background:#fff;
+	border:1px solid #fe7a3f;
+	margin-right:10px;
+}
+.safe_con_infoprompt_other_wz .safe_con_infoprompt_progress .uk-progress-bar{
+	background: #006ec5;
+}
+.safe_con_infoname span.safe_bindcard{
+	margin:0 26px 0 10px;
+}
+.safe_con_bankwarn{
+	margin:0 5px;
+}
+.safe_con_info .common_division{
+	height:12px;
+	margin-top:3px;
+}
+.safe_content .uk-grid .uk-width-2-10{
+    width: 15%;
+}
